@@ -1,0 +1,3 @@
+defaults:
+  - base
+  - gpu: 2x2080

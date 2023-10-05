@@ -1,0 +1,4 @@
+num_train_epochs: 2000
+fp16: true
+gpu_name: rtx4090
+batch_size: 16

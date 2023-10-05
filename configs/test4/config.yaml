@@ -1,0 +1,4 @@
+defaults:
+  - _self_
+  - trainer: defaults
+description: define GPU specific params as optional

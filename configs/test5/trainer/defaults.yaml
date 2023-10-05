@@ -1,0 +1,15 @@
+#defaults:
+#  - base
+#  - gpu: 2x2080
+defaults:
+  - base
+  - gpu/gpu_rtx2070@_here_
+
+
+#  - gpu/2x2080
+#  - gpu/rtx2070  # defined package trainer
+#  - gpu/gpu_rtx2070 # without defining package trainer
+
+# https://hydra.cc/docs/patterns/extending_configs/
+#  - gpu/gpu_rtx2070@_here_
+

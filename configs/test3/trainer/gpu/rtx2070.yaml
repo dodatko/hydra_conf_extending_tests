@@ -1,0 +1,3 @@
+gpu_name: rtx2070
+batch_size: 2
+description: incorrect, appears as nested 'gpu' group

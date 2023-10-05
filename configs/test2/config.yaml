@@ -1,0 +1,7 @@
+defaults:
+  - trainer: gpu/rtx2070
+description: trainer/base содержит базовые параметры,
+              но подключение чего-то из trainer/gpu добавит специфичные
+              для определенного GPU параметры,
+              минус - trainer/gpu/rtx2070 это криво
+

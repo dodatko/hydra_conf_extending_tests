@@ -1,0 +1,5 @@
+defaults:
+  - _self_
+  - trainer: defaults
+#  - override trainer: gpu/rtx2070
+description: define GPU specific params as optional

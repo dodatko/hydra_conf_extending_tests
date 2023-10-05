@@ -1,0 +1,5 @@
+defaults:
+  - base
+
+gpu_name: rtx2070
+batch_size: 2

@@ -1,0 +1,4 @@
+defaults:
+  - base
+  - gpu: rtx2070
+  - 2x2080

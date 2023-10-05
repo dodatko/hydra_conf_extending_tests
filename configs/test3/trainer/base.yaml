@@ -1,0 +1,6 @@
+num_train_epochs: 20
+fp16: true
+gpu_name: rtx4090
+batch_size: 16
+#defaults:
+#  - override 2x2080

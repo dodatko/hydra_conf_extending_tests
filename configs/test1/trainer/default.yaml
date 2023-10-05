@@ -1,0 +1,3 @@
+num_train_epochs: 20
+fp16: true
+gpu_name: rtx4090

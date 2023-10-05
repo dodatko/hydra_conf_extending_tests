@@ -1,0 +1,5 @@
+defaults:
+  - _self_
+  - trainer: defaults
+#  - gpu/rtx2070@trainer
+  - gpu@trainer: rtx2070

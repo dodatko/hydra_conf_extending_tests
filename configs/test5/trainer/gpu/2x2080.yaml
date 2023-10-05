@@ -1,0 +1,4 @@
+# @package trainer
+gpu_name: rtx2080
+num_gpu: 2
+batch_size: 4
