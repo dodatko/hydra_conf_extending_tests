@@ -39,6 +39,8 @@ in `configs/test5/trainer/defaults.yaml`
 
 #### 3. [Overriding packages using the Defaults List](https://hydra.cc/docs/advanced/overriding_packages/#overriding-packages-using-the-defaults-list)
 **Best way?**
+
+example `configs/test6/config.yaml`
 ```
 defaults:
   - _self_
