@@ -24,11 +24,11 @@
 
 #### 1. [Overriding the package via the package directive](https://hydra.cc/docs/advanced/overriding_packages/#overriding-the-package-via-the-package-directive)
 `# @package trainer` in the head of file to change default package
-example: `configs/test5/trainer/gpu/2x2080.yaml`
+[example](configs/test5/trainer/gpu/2x2080.yaml): `configs/test5/trainer/gpu/2x2080.yaml`
 
 
 #### 2.  [Extending a config from another config group](https://hydra.cc/docs/patterns/extending_configs/)
-example:
+[example](configs/test5/trainer/defaults.yaml):
 ```
 defaults:
   - base
@@ -40,7 +40,7 @@ in `configs/test5/trainer/defaults.yaml`
 #### 3. [Overriding packages using the Defaults List](https://hydra.cc/docs/advanced/overriding_packages/#overriding-packages-using-the-defaults-list)
 **Best way?**
 
-example `configs/test6/config.yaml`
+[example](configs/test6/config.yaml) `configs/test6/config.yaml`
 ```
 defaults:
   - _self_
@@ -62,7 +62,11 @@ Files tree:
 
 ... and without `# @package trainer` redundant headers
 
+### Custom variables like os.cpu_count
+Implemented using OmegaConf resolvers, [see example here](resolvers.py)
+
 
 ### TODO
 1. [ ] Motivation section
-2. [ ] Rename configs/* with descriptive names
+1. [ ] Resolvers example
+1. [ ] Rename configs/* with descriptive names
